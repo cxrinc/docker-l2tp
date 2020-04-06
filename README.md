@@ -9,6 +9,16 @@ https://hub.docker.com/r/teddysun/l2tp/
 
 ## セットアップ手順
 
+1. git clone
+
+```
+mkdir /docker
+cd /docker
+git clone https://github.com/kmahara/docker-l2tp.git
+mv docker-l2tp l2tp
+cd l2tp
+```
+
 1. l2tp.env を修正してください。
 
 設定の詳細は以下のドキュメントを参照ください。  
