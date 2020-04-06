@@ -1,6 +1,6 @@
 ## 概要
 
-以下の docker をベースに修正したものです。
+以下の docker をベースに修正したものです。  
 https://hub.docker.com/r/teddysun/l2tp/
 
 修正点
@@ -10,7 +10,7 @@ https://hub.docker.com/r/teddysun/l2tp/
 
 1. l2tp.env を修正してください。
 
-設定の詳細は以下のドキュメントを参照ください。
+設定の詳細は以下のドキュメントを参照ください。  
 https://hub.docker.com/r/teddysun/l2tp/
 
 2. 起動
@@ -39,3 +39,6 @@ docker-compose exec l2tp l2tpctl -a
 docker-compose exec l2tp l2tpctl -d
 ```
 
+## データファイル
+
+config ディレクトリには登録されたユーザとパスワードを含むファイルが保存されます。
