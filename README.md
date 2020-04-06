@@ -19,12 +19,12 @@ mv docker-l2tp l2tp
 cd l2tp
 ```
 
-1. l2tp.env を修正してください。
+2. l2tp.env を修正してください。
 
 設定の詳細は以下のドキュメントを参照ください。  
 https://hub.docker.com/r/teddysun/l2tp/
 
-2. 起動
+3. 起動
 
 ```
 docker-compose up -d
